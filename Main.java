@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         /*PagePDF pagePDF = new PagePDF();
         pagePDF.setVisible(true);*/
-        File file = new File("Horario_del_Alumno.pdf");
+        File file = new File("1.pdf");
         try{
             Desktop.getDesktop().open(file);
         } catch (IOException e) {
